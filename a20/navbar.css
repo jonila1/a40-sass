@@ -1,0 +1,27 @@
+.navbar{
+    background-color: orange;
+    border: solid black 2px;
+    height: 40px;
+}
+
+.home{
+overflow: hidden;
+float: right;
+}
+.logo{
+    background-color: green;
+    width: auto;
+    
+    border-radius: 100%;
+    border: black solid 2px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+} 
+li{
+    display: inline;
+    padding: 10px;
+}
+ul{
+    float: right
+}

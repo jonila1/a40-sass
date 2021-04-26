@@ -1,0 +1,35 @@
+.p1{
+    font-size: 24px;
+    color: darkgreen;
+}
+.p2{
+    font-size: 10px;
+    color: darkblue;
+}
+@media only screen and (max-width:600px){
+   .p1{
+       font-size: 100px;
+       color: red;
+   } 
+}
+
+@media only print {
+    .p2{
+        font-size: 20px;
+        color: darkcyan;
+    }
+}
+/*extra small(phones and down)*/
+@media only screen and (max-width:600px)
+
+/* small(portrait tablets, larg phones 600px and uo)*/
+@media only screen and (min-width:600px)
+
+/*medium devices(landscape tablets, 768px and up)*/
+@media only screen and (min-width: 768px)
+
+/*large devices(laptops/desktops, 992px and up)*/
+@media only screen and (min-width: 992px)
+
+/*extra large devices (large laptops/desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px)

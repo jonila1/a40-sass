@@ -1,0 +1,55 @@
+/* Pseudoclass (:) */
+button{
+    background-color: yellow;
+}
+button:hover{
+    background-color: green;
+    transform: scale(3);
+}
+a{
+    color: blue;
+}
+/*visited link*/
+a:visited{
+    color: red;
+}
+/*unvisited link*/
+a:link{
+    color: green;
+}
+a:active{
+    color: purple;
+}
+/*PSEUDOELEMENTE (::)*/
+
+p::first-letter{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h1::before{
+    content: 'before';
+    font-size: 13px;
+    color: saddlebrown;
+}
+h1::after{
+    content: 'after';
+    font-size: 13px;
+    color: saddlebrown;
+}
+h2::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: saddlebrown;
+    display: inline-block;
+}
+h2::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: saddlebrown;
+    display: inline-block;
+    border-radius: 100%; 
+}

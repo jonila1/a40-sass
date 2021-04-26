@@ -1,0 +1,252 @@
+ body{
+    font-family: 'Karla', sans-serif;
+}
+ul{
+  display: flex;  
+}
+.nav-menu li{
+    list-style-type: none;
+    color: black;
+    padding: 16px 14px;
+}
+.nav-menu a{
+    text-decoration: none;
+}
+.logo,.nav-bar{
+    width: 40%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hello{
+    width: 40%;
+background-color: #D2C7F0;
+}
+.box-img, .decription-mission{
+    width: 50%;
+}
+.hello, .box-img{
+    height:350px ;
+}
+.home-intro, .mission-intro{
+    display: flex;
+    justify-content: center;
+}
+.box-img img{
+    width: 100%;
+    height: 300px;
+}
+.your-mission{
+    width: 40%;
+}
+.hello h3{
+    font-size: 45px;
+}
+
+.hello h3,p,.home-buttons{
+    margin-left: 30px;
+}
+.home-buttons button{
+    width: 189px;
+    height: 44px;
+    text-transform: uppercase;
+    
+}
+.products-btn{
+    background-color:black ;
+    border: none;
+    color: white;
+    margin-right: 5px;
+}
+.contact-btn{
+background-color: transparent;
+border: black 2px solid;
+color: black;
+margin-left: 5px;
+}
+.word-mission{
+    color: #D2C7F0;
+}
+.decription-mission{
+    color: #62666D ;
+}
+@media only screen and (max-width:600px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .logo, .nav-menu {
+        width: 100%;
+    }
+    .nav-menu li {
+        padding: 0 40px 0 40px;
+    }
+    .home-intro{
+        display: flex;
+        flex-direction: column;
+    }
+    .hello , .box-img{
+        width: 100%;
+
+    }
+    .hello{
+        order: 2;
+    }
+    .box-img{
+        order: 1;
+    }
+    .home-buttons{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-buttons button{
+        width: 70%;
+        margin: 0;
+    }
+    .contact-btn{
+        margin-top: 20px;
+
+    }
+    .products-btn{
+        margin-bottom: 20px;
+
+    }
+    .mission-intro{
+        flex-direction: column;
+        text-align: center;
+    }
+    .your-mission , .decription-mission{
+        width: 100%;
+    }
+
+}
+
+/*Pjesa 2-items.html*/
+.add-to-card-btn{
+    background-color: #000000;
+    width: 209px;
+    height: 73px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px
+    
+}
+.navy , .pink, .red, .black{
+    border-radius: 100%;
+    width: 27px;
+    height: 27px;
+    margin: 15px;
+}
+.navy{
+    background-color:#043B78 ;
+    
+}
+
+.pink{
+    background-color: #9416A8;
+    
+}
+.red{
+    background-color:#A83116 ;
+}
+.black{
+    background-color: #000000;
+}
+
+.Vintage-Chair p{
+    color: #62666D;
+}
+.Title{
+    width: 100%;
+    margin-left:147px ;
+}
+
+.parent{
+    display: flex;
+    justify-content: ;
+}
+.Vintage-Chair, .foto-itm{
+    width: 40%;
+}
+.colors{
+    display:flex ;
+
+}
+.foto-itm img{
+    width: 638px;
+height: 546px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Vintage-Chair{
+    margin: 30px;
+}
+.Vintage-Chair h1, .price-btn{
+    margin-left: 35px;
+}
+
+/*PJESA 3*/
+.contact-info{
+    display: flex;
+}
+input, .form-inputs button{
+    display: block;
+    width: 80%;
+    height: 40px;
+}
+.map , .form-inputs{
+    width: 40%;
+}
+textarea{
+    width: 80%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+input , textarea{
+    border: none;
+}
+/*PRODUCTS STYLE*/
+.best-seller-nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+    margin-left: 80px;
+}
+.category{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 30%;
+}
+.all-products{
+    display: flex;
+    justify-content: space-around;
+}
+.card img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top:150px;
+    left: 10%;
+}
+.card-bcg h3, p{
+    padding-top: 20px ;
+    margin-left:50px ;
+}
+.card{
+    width: 20%;
+    height: 300px;
+    position: relative;
+}
+.card-bcg{
+    background-color:#F6F2FF ;
+    height: 200px;
+}

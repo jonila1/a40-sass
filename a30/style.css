@@ -1,0 +1,44 @@
+.parent{
+    border: 2px black solid;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: baseline;
+    flex-wrap: wrap;
+
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border: 2px solid darkcyan;
+}
+.white-box{
+    display: flex;
+    width: 60%;
+    box-shadow: 4px 4px 4px gainsboro;
+    height: 500px;
+    align-items: center;
+    justify-content: space-aroun;
+}
+.child-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.child-img , .child-form{
+    width: 40%;
+    height: 250px;
+
+}
+.child-img img{
+    width: 100%;
+}
+@media only screen and (max-width:600px){
+    .white-box{
+       width: 100%;
+        display: flex;
+        flex-direction: column;
+    }

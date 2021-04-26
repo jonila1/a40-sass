@@ -1,0 +1,31 @@
+.table{
+    overflow: hidden;
+    border:1px solid rgba(0,0,0,1);
+    border-collapse: collapse;
+    width: 400px;
+    background-color:white;
+    border-radius: 5px;
+}
+.div{
+    background-color: #c5d3f6;
+    width: 100%
+}
+.thead{
+    background-color: #6d7ae0;
+    color: white;
+    height: 100px;
+
+}
+.tbody{
+    background-color:rgb(238, 237, 237);
+    color: gray;
+}
+td,th{
+    border-bottom: solid grey 1px;
+}
+*{
+    font-style: normal;
+    font-family: unset;
+    text-align: start;
+}
+

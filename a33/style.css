@@ -1,0 +1,95 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.sky {
+    height: 40% ;
+    background: skyblue;
+}
+
+.grass {
+    height: 30%;
+    background: green;
+}
+
+.road {
+    width: 100%;
+    height: 30%;
+    background: dimgray;
+    border-top: 10px solid gray;
+}
+
+.sky, .grass, .road{
+    position: relative;
+}
+
+.lines {
+    width: 100%;
+    border: 5px white dashed;
+    position: absolute;
+    top:45%;
+}
+
+.bike {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    /* animation-name: drive;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-timing-function:ease-out; */
+    /* animation-delay: 2s; */
+    animation: drive 5s both ease-out infinite,
+                jump 0.5 1.2s ease;
+}
+
+.car {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top:100px;
+}
+
+.cloud {
+    position: absolute;
+
+}
+.cloud1 {
+    width: 100px;
+    opacity: 0.5;
+    top:90px;   
+    animation-name: wind;
+    animation-duration: 60s;
+    animation-direction: reverse;
+}
+
+.cloud2 { 
+    width: 150px;
+    top: 0;
+    /* animation-name: wind; */
+    /* animation-duration: 80s; */
+    animation: wind 80s;
+    
+}
+
+
+@keyframes drive {
+    from {transform: translate(-200px) ;}
+    to {transform: translate(1400px);}
+}
+
+@keyframes wind {
+    from {left:100px}
+    to{left: 100%}
+}
+
+@keyframes jump {
+    0% {top:0px}
+    50% {top:-200px}
+    100% {top:-100px}
+}
+

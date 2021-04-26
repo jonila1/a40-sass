@@ -1,0 +1,18 @@
+h1{
+    size: 40px;
+    color: darkgreen ;
+
+}
+h2{
+    size: 25px;
+    color: rgb(255, 80, 240);
+    
+}
+p{
+    size: 18px;
+    color: rgb(45, 95, 95);
+    
+}
+em{
+    color: rgb(48, 41, 88);
+}

@@ -1,0 +1,39 @@
+.parent{
+    width: 500px;
+    height: 500px;
+    border: 2px red solid;
+    position: relative;
+    left: 100px;
+}
+.box1, .box2{
+    width: 100px;
+    height: 100px;
+
+}
+.box1{
+    background-color: lightblue;
+    position: fixed;
+    top: 100px;
+    left: 50px;
+
+}
+.box2{
+    background-color: lightgreen;
+    position: sticky;
+    top:100px;
+    left:300px; 
+}
+.card{
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    position: relative;
+}
+.x{
+    position: absolute;
+    top: 0px;
+    left: 270px;
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}

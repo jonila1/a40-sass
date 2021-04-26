@@ -1,0 +1,37 @@
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    overflow: hidden;
+}
+.p1{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    overflow:scroll ;
+}
+.p2{
+    width: 200px;
+    height: 200px;
+    border: red solid 2px;
+    overflow: auto;
+}
+.p3{
+    width: 100px;
+    height: 200px;
+    border: blue 2px solid;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.box1, .box2{
+   width: 100px;
+   height: 100px; 
+}
+.box1{
+    background-color: red;
+    float: right;
+}
+.box2{
+    background-color: orange;
+    float: left;
+}

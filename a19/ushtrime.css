@@ -1,0 +1,9 @@
+.test>p{color: blue;
+
+}
+.test2>.test3{
+    color: red;
+}
+.test2:hover{
+    background-color: salmon;
+}

@@ -1,0 +1,22 @@
+*{
+    color: blue;
+}
+
+p.variant2{
+    color:red
+}
+
+p,.description{
+    color:green
+}
+
+div p{
+    color: yellow;
+}
+
+
+div>p{
+    color: purple;
+} 
+
+

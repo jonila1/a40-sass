@@ -1,0 +1,77 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon-right img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 10px;
+}
+.icon-right img:hover{
+    box-shadow: 5px 5px 5px gray;
+}
+
+.box-parent {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    box-shadow:0px 7px 30px 10px lightgray;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-info{
+    display: flex;
+    align-items: center;
+}
+.card-info img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left: 20px;
+} 
+.button-done{
+    display: flex;
+}
+.description{
+    margin-left: 20px;
+}
+.button-done{
+    display: flex;
+    align-items: center;
+}
+.button-done button{
+    width: 50px;
+    height: 20px;
+    background-color: white;
+    color: blue;
+    border: blue 2px solid;
+    border-radius: 5px;
+    
+}
+.button-done p{
+    margin-right: 10px;
+}
+.red{
+    color: red;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+.blue-box{
+    display: flex;
+    background-color: blue;
+    justify-content: space-evenly;
+}
+.blue-box img{
+    width: 30px;
+    height: 30px;
+}
+.expenss, .incomes{
+    display: flex;
+}

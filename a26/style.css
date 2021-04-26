@@ -1,0 +1,105 @@
+body{
+    background-color:#9ec4fb ;
+    border-radius: 10px;
+    display: inline-block;   
+}
+.main-card{
+    background-color: #02044a;
+    width: 1000px;
+    height: 500px;
+    margin: 5%;
+    padding: 30px;
+    border-radius: 20px;
+}
+img{
+    width: 30px;
+    display: inline-block;
+}
+
+.info{
+    width:50% ;
+    height: 90%;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+}
+.email{
+    display: inline-block;
+}
+.forma{
+    background-color: white;
+    width: 40%;
+    float: right;
+    height: 90%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.button{
+    height: 35px;
+    width: 130px;
+    background-color:rgb(53, 116, 247);
+    text-align: center;
+    border-radius: 10px;
+    float: right;
+    margin-top: 10%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 90%;
+}
+
+.fb :hover, .tw :hover, .ig :hover{
+    background-color: rgb(53, 116, 247) ;
+    display: inline-block;
+    border-radius: 100%;
+   
+}
+.fb{
+    float: left;
+    margin: 25px;
+}
+.tw{
+    float: left;
+    margin: 25px;  
+}
+ .ig{
+    float: left;
+    margin: 25px;
+ }    
+.infos :hover{
+    border: blue 1px solid;
+    border-radius: 6px;
+   
+}
+.img :hover{
+    border: blue 1px solid;
+    border-radius: 6px;
+}
+.email :hover{
+    border: blue 1px solid;
+    border-radius: 6px;
+}
+
+
+.numri{
+    margin-right: 10px;
+}
+textarea{
+    height: 100px;
+    width: 80%;
+}
+input{
+    height: 30px;
+    width: 80%;
+}
+input, textarea , label{
+    margin-left: 30px;
+}
+.pin , .street{
+    display: inline-block;
+}
+.foto-mail , .hotmail{
+    display: inline-block;
+}
+.numri , .numri2{
+    display: inline-block;
+}

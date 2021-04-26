@@ -1,0 +1,42 @@
+.div1{
+width: 500px;
+height: 100px;
+background-color: black;
+}
+.div2{
+    width: 500px;
+    height: 100px;
+    background-color: red;
+}
+.div3{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(255, 196, 0);
+}
+.green{
+background-color: green;
+width: 150px;
+height: 300px;
+position: absolute;
+left: 300px;
+
+}
+.white{
+background-color: white;
+width: 150px;
+height: 300px;
+position: absolute;
+
+}
+.red{
+background-color: red;
+width: 150px;
+height: 300px;
+position: absolute;
+}
+.parent{
+    border: black 1px solid;
+width: 450px;
+height: 300px;
+position: relative;
+}

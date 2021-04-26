@@ -1,0 +1,19 @@
+@import "./footer";
+@import "./navbar"
+
+$title-color: red;
+header{
+    h1{
+        color: $title-color;
+        font-size: 20px;
+
+    }
+    ul{
+        list-style: none;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+        color: orange;
+    }
+}

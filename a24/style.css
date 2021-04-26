@@ -1,0 +1,31 @@
+span{
+    font: bolder;
+    font-weight: bolder;
+}
+body{
+    text-align: center;
+    margin: 20px;
+    
+}
+img{
+    margin: 0 auto;
+    width: 200px;
+    display: block;
+}
+p{
+    width: 40%;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-left: 30%;
+    line-height:20px ;
+    
+}
+h1, h3{
+    font-family: 'Staatliches', cursive;
+    
+}
+h1{
+    letter-spacing: 15px;
+
+}
+h3{
+letter-spacing: 5px;}

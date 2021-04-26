@@ -1,0 +1,27 @@
+.footer {
+  background-color: #d4a0d4;
+  width: 100%;
+  height: 100px;
+}
+
+.navbar {
+  background-color: #8da069;
+  width: 100%;
+  height: 100px;
+}
+
+header h1 {
+  color: red;
+  font-size: 20px;
+}
+
+header ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+header a {
+  text-decoration: none;
+  color: orange;
+}
+/*# sourceMappingURL=style.css.map */

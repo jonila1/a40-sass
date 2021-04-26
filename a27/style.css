@@ -1,0 +1,24 @@
+.parent{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    /*pozicionimi horizonralisht: flex-start, end, center*/
+    justify-content: space-evenly;
+    /*flex-direction jep drejtim rresht ose kolone edhe mundesh me e bo reverse*/
+    flex-direction: row-reverse;
+    /*pozicionimi i elementeve vertikalisht*/
+    align-items: baseline;
+    /* */
+    flex-wrap: wrap;
+
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    border: 1px black solid;
+}
+.child3{
+    order: 2;
+}

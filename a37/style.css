@@ -1,0 +1,33 @@
+.inset{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    background-image: url('images/download.jpeg');
+    /*inset(top.left,bottom,right)*/
+    clip-path: inset(30px 10px 30px 20px );
+}
+.card{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.circle{
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    /*circle(size at x y)*/
+    clip-path: circle(10% at 20% 20%);
+    animation: change 4s linear infinite ;
+}
+.polygon{
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    clip-path: polygon(0% 100%, 50% 0% ,100% 100% );
+}
+
+
+@keyframes change{
+    10%{clip-path: circle(10% at 80% 70%);}
+}
+/*https://bennettfeely.com/clippy/*/
